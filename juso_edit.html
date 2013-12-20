@@ -1,0 +1,54 @@
+<html>
+	<head>
+	<title>주소록 수정</title>
+	<link rel="stylesheet" href="font.css" />
+	</head>
+
+	<body>
+		<form name="frm_sj_in" method="post" action="sj_insert.php">
+			<table width="350" border="1" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="120" bgcolor="lightblue" align="center">이름</td>
+				<td>
+					<input type="text" name="name" value="" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="lightblue" align="center">국어</td>
+				<td>
+					<input type="text" name="kor" value="" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="lightblue" align="center">영어</td>
+				<td>
+					<input type="text" name="eng" value="" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="lightblue" align="center">수학</td>
+				<td>
+					<input type="text" name="mat" value="" />
+				</td>
+			</tr>
+			<!--
+			<tr>
+				<td bgcolor="lightblue" align="center">총점</td>
+				<td>
+					<input type="text" name="scr" value="" />
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="lightblue" align="center">평균</td>
+				<td>
+					<input type="text" name="avg" value="" />
+				</td>
+			</tr>
+			-->
+			</table>
+
+			<input type="submit" value="등록" />
+			<input type="button" value="취소" onClick="javascript:history.back()" />
+		</form>
+	</body>
+</html>
